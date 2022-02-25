@@ -9,7 +9,7 @@ export type AppThunk = ActionCreator<
     ThunkAction<void, ToDos, null, Action<string>>
   >;
 
-const apiUrl = process.env.REACT_APP_JSON_SERVER || 'http://localhost:3000/todos';
+const apiUrl = (process.env.NODE_ENV === 'production' ? process.env.REACT_APP_JSON_SERVER : process.env.REACT_APP_JSON_SERVER_LOCAL) || 'http://localhost:3000/todos';
 
 export const addTodo: AppThunk = (text: string) => {
   return async (dispatch: Dispatch) => {
