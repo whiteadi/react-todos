@@ -25,7 +25,7 @@
 After you have installed all dependencies, you may run the app.
 
 * `npm run server`
-* `npm run start`
+* `npm run client`
 * Go to `http://localhost:4000`
 
 You can change the port, now 4000 - because json-server runs on 3k-, into .env file.
