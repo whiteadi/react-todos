@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "text": " First eve Todo",
+      "completed": false,
+      "id": 1
+    },
+    {
+      "completed": true,
+      "text": "2nd test todo",
+      "id": 2
+    },
+    {
+      "completed": true,
+      "text": "Yet another test todo",
+      "id": 3
+    }
+  ]
+}
